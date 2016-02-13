@@ -23,7 +23,8 @@ http://railstutorial.ru/chapters/4_0/user-microposts#top
 
 - fix custom.scss by myself
 
-- default admin user is "admin@railstutorial.org" with password: "foobar"
+- default admin user is "admin@railstutorial.org" and "example@railstutorial.org"
+                                            with password: "foobar"
       to change - look at lib/tasks/sample_data.rake
       need to reset db -> rake db:reset
       and do ->           rake db:populate  for gem 'faker' to fill a db with data
@@ -35,9 +36,9 @@ http://railstutorial.ru/chapters/4_0/user-microposts#top
           git commit -am 'deploy heroku'
 
 - git push heroku master
-- heroku run rake db:migrate --app
-- heroku run rake db:populate --app    --> fill db
+- heroku run rake db:migrate --app gentle-refuge-13368
+- heroku run rake db:populate --app gentle-refuge-13368   --> fill db
 
 
-App at production -
+App at production - https://gentle-refuge-13368.herokuapp.com
 
