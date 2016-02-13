@@ -17,7 +17,7 @@ http://railstutorial.ru/chapters/4_0/user-microposts#top
 * Features:
 
 -add countdown 140 simbols at assets/javascripts/static_pages.js (renamed from .coffee) and views/shared/_micropost_form.html add span.countdown
-
+(http://jberczel.github.io/hartl-solutions-ch10/#step7)
 
 - fix bug at sample_data.rake (rake db:populate) - http://stackoverflow.com/questions/23749612/wrong-number-of-arguments-1-for-0-hartl-chapter-10-bundle-exec-rake-dbpopul
 
@@ -41,4 +41,3 @@ http://railstutorial.ru/chapters/4_0/user-microposts#top
 
 App at production -
 
-11.3.1

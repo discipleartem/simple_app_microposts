@@ -172,6 +172,7 @@ aside {
 .user_avatars {
   overflow: auto;
   margin-top: 10px;
+  max-width: 300px;
   .gravatar {
     margin: 1px 1px;
   }
@@ -254,4 +255,9 @@ aside {
     height: 100px;
     margin-bottom: 5px;
   }
+}
+
+#micropost_content {
+  min-width: 300px;
+  min-height: 300px;
 }
