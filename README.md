@@ -12,16 +12,20 @@ http://railstutorial.ru/chapters/4_0/user-microposts#top
 
 * Database postgres
 
-* Deployment from http://railstutorial.ru/chapters/4_0/a-demo-app#top
 
 * Features:
 
 -add countdown 140 simbols at assets/javascripts/static_pages.js (renamed from .coffee) and views/shared/_micropost_form.html add span.countdown
 (http://jberczel.github.io/hartl-solutions-ch10/#step7)
 
+- fix custom.scss by myself
+
+* Bugs:
+
 - fix bug at sample_data.rake (rake db:populate) - http://stackoverflow.com/questions/23749612/wrong-number-of-arguments-1-for-0-hartl-chapter-10-bundle-exec-rake-dbpopul
 
-- fix custom.scss by myself
+
+* Deployment from http://railstutorial.ru/chapters/4_0/a-demo-app#top
 
 - default admin user is "admin@railstutorial.org" and "example@railstutorial.org"
                                             with password: "foobar"
